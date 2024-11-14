@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mandj/static/css/main.bd02637b.css",
-    "main.js": "/mandj/static/js/main.bb1cbe54.js",
+    "main.js": "/mandj/static/js/main.8a4ab2f8.js",
     "index.html": "/mandj/index.html",
     "main.bd02637b.css.map": "/mandj/static/css/main.bd02637b.css.map",
-    "main.bb1cbe54.js.map": "/mandj/static/js/main.bb1cbe54.js.map"
+    "main.8a4ab2f8.js.map": "/mandj/static/js/main.8a4ab2f8.js.map"
   },
   "entrypoints": [
     "static/css/main.bd02637b.css",
-    "static/js/main.bb1cbe54.js"
+    "static/js/main.8a4ab2f8.js"
   ]
 }
