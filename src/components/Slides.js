@@ -1,9 +1,9 @@
 import React from 'react';
 
-const slides = [    
+const slides = [
   {
-    title: 'Big Mike',
-    description: 'A champion in the ring and in life.',
+    title: 'KOTN',
+    description: 'K O The Market.',
     imageUrl: 'https://www.thetimes.com/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fec5e0671-d12f-48b8-864e-f27e730f96a6.jpg?crop=1600%2C900%2C0%2C0&resize=1500',
   },
 ];
@@ -30,16 +30,21 @@ const Slides = () => {
                 border-b-[1px] border-blue-400"
               onClick={() => openLink('https://t.me/miketysonvsjakepaulgamblers')}
             >
-              <span className="flex flex-col justify-center items-center h-full text-white font-bold text-lg">
-                Telegram
-              </span>
+              <span className="flex flex-col justify-center items-center h-full text-white font-bold text-lg">Telegram</span>
             </div>
           </div>
 
-          {/* Center Text */}
+          {/* Center Text with Clickable Title */}
           <div className="mb-20 text-center">
-            <h2 className="text-5xl font-bold bg-black bg-opacity-50 p-4 rounded">{slide.title}</h2>
-            <p className="mt-2 bg-black bg-opacity-50 rounded px-2">{slide.description}</p>
+            <a
+              href="https://pump.fun/coin/FLPTfJU77cPsQvLrnEjtBYEM2NtucHjw3BBQCF6Ppump"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-5xl font-bold bg-black bg-opacity-50 p-4 rounded hover:underline"
+            >
+              {slide.title}
+            </a>
+            <p className="mt-10 bg-black bg-opacity-50 rounded px-2">{slide.description}</p>
           </div>
 
           {/* Right Button - X */}
@@ -51,9 +56,7 @@ const Slides = () => {
                 rounded-full border-[1px] border-red-400"
               onClick={() => openLink('https://x.com/MikevsJakefight')}
             >
-              <span className="flex flex-col justify-center items-center h-full text-white font-bold text-lg">
-                X
-              </span>
+              <span className="flex flex-col justify-center items-center h-full text-white font-bold text-lg">X</span>
             </div>
           </div>
         </div>
